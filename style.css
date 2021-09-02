@@ -1,0 +1,53 @@
+body {
+    background-image:url(img/background\ img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #0D9C57;
+}
+
+#number {
+    font-size: 40px;
+    color: #ED2939;
+}
+
+#increment{
+    width: 200px;
+    font-size: 30px;
+    background-color: #3AADAC;
+    color: #11333F;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#decrement{
+    width: 200px;
+    background-color: #3AADAC;
+    color: #11333F;
+    font-size: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#reset{
+    width: 200px;
+    background-color: #49F106;
+    color: #FF3300;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
